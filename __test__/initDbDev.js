@@ -8,7 +8,7 @@ import books from './mock/books.json'
 import verses from './mock/verses.json'
 
 export const connect = async () => {
-  return mongoose.connect('mongodb://localhost/abibliadigital_test', {
+  return mongoose.connect('mongodb://localhost/abibliadigital', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true

@@ -12,6 +12,7 @@
   },
   "scripts": {
     "dev": "nodemon --exec babel-node app.js",
+    "popule":"babel-node __test__/initDbDev.js",
     "lint": "eslint ./",
     "start": "NODE_ENV=production babel-node app.js",
     "test": "yarn test:db && jest --testTimeout=25000",
